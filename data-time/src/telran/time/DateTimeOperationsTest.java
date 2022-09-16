@@ -74,6 +74,7 @@ public class DateTimeOperationsTest {
 		System.out.printf("number years %d, number months %d, number days %d\n", period.getYears(), period.getMonths(), period.getDays()); 
 	}
 	
+	@SuppressWarnings("static-access")
 	@Test
 	void timeTest() {
 		Instant current = Instant.now();
